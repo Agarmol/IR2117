@@ -11,8 +11,11 @@ int Sumv3(int a, int b){
 int main()
 {
     int a, b, sum= 0;
-    std::cout<<"Enter a number a: ";
-    std::cin >> a;
+    do{
+        std::cout << "Enter a number higher than 0 for a: ";
+        std::cin >> a;
+    }
+    while(a < 1);
     std::cout<<"Enter a number b: ";
     std::cin >> b;
     sum = Sumv3(a, b);
