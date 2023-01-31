@@ -16,10 +16,14 @@ int main()
         std::cin >> a;
     }
     while(a < 1);
-    std::cout<<"Enter a number b: ";
-    std::cin >> b;
+    do{
+        std::cout << "Enter a number higher than 0 for b: ";
+        std::cin >> b;
+    }
+    while(b < 1);
     sum = Sumv3(a, b);
     std::cout<< "La suma entre " << a << " y " << b << " es :" << sum;
     
     return 0;
 }
+
