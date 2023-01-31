@@ -17,10 +17,10 @@ int main()
     }
     while(a < 1);
     do{
-        std::cout << "Enter a number higher than 0 for b: ";
+        std::cout << "Enter a number higher than a or equal, for b: ";
         std::cin >> b;
     }
-    while(b < 1);
+    while(b < a);
     sum = Sumv3(a, b);
     std::cout<< "La suma entre " << a << " y " << b << " es :" << sum;
     
