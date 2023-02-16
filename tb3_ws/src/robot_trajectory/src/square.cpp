@@ -25,6 +25,22 @@ int main(int argc, char * argv[])
   
   message.linear.x = 0;
   publisher->publish(message);
+  
+  i=0;
+  n=1571;
+  
+while (rclcpp::ok() && (i<n)) {
+  i++;
+   message.linear.x = 0;
+   message.angular.z = 0.1;
+   publisher->publish(message);
+   rclcpp::spin_some(node);
+   loop_rate.sleep();
+}
+
+  message.angular.z = 0;
+  publisher->publish(message);
+  
   rclcpp::shutdown();
   return 0;
 }
