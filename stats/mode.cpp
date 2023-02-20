@@ -11,6 +11,14 @@ int main(int argc, char** argv) {
     std::cin >> element;
     }
     
+      //Count first number
+    int x;
+    for(int i=0; i<elements.size();i++){
+        if(elements[0]==elements[i]){
+            x++;
+        }
+    }
+
     std::cout << "Mode: " << m << std::endl;
     return 0;
 }
