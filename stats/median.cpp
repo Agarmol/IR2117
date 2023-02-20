@@ -11,6 +11,10 @@ int main(int argc, char** argv) {
     std::cin >> element;
     }
     
+    //Sort vector
+    elements = sort(elements);
+    
+    std::cout << "Elements sorted: " <<elements << endl;
     std::cout << "Median: " << m << std::endl;
     return 0;
 }
