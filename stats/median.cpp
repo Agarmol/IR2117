@@ -1,6 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <bits/stdc++.h>
+#include "median.hpp"
 int main(int argc, char** argv) {
   doubble m=0, s=0;
   int n=0, element;
