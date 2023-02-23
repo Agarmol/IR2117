@@ -32,7 +32,7 @@ for(int j=0; j<4; j++){
    publisher->publish(message);
   
    i=0;
-   n=1571;
+   n=(3.1416/2) / (0.01 * angular_speed);
   
    while (rclcpp::ok() && (i<n)) {
      i++;
