@@ -27,6 +27,7 @@ for(int j=0; j<4; j++){
      rclcpp::spin_some(node);
      loop_rate.sleep();
    }
+   
   
    message.linear.x = 0;
    publisher->publish(message);
