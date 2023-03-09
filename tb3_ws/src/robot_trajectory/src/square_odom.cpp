@@ -3,11 +3,16 @@
 #include "geometry_msgs/msg/twist.hpp"
 #include "nav_msgs/msg/odometry.hpp"
 
-double pos_x=0.0, pos_y=0.0, ori_x=0.0, ori_y=0.0, angle; 
+double pos_x=0.0, pos_y=0.0, ori_x=0.0, ori_y=0.0, angle, ini_pos_x=0.0, ini_pos_y=0.0,ini_angle=0.0; 
 using namespace std::chrono_literals;
 
 void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg){
 
+     if (ini_pos_x == 0 && ini_pos_y == 0 && ini_angle == 0) {
+    	ini_pos_x = msg->pose.pose.position.x;
+    	ini_pos_y = msg->pose.pose.position.y;
+    	ini_angle = std::atan2(msg->pose.pose.orientation.y, msg->pose.pose.orientation.x);
+    }
      ori_x= msg ->pose.pose.orientation.x;   
      ori_y= msg ->pose.pose.orientation.y;
      angle = std::atan2(ori_y,ori_x);
