@@ -2,15 +2,20 @@
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 #include "nav_msgs/msg/odometry.hpp"
-double pos_x=0.0, pos_y=0.0;
+
+double pos_x=0.0, pos_y=0.0, ori_x=0.0, ori_y=0.0, angle; 
 using namespace std::chrono_literals;
 
 void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg){
- 
+
+     ori_x= msg ->pose.pose.orientation.x;   
+     ori_y= msg ->pose.pose.orientation.y;
+     angle = std::atan2(ori_y,ori_x);
      pos_x = msg->pose.pose.position.x;
      pos_y = msg->pose.pose.position.y;
      std::cout << pos_x << std::endl;
      std::cout << pos_y << std::endl;
+     std::cout << angle << std::endl;
    
 }
 int main(int argc, char * argv[])
