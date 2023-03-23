@@ -3,7 +3,7 @@
 #include "geometry_msgs/msg/twist.hpp"
 #include "nav_msgs/msg/odometry.hpp"
 
-double pos_x=0.0, pos_y=0.0, ori_x=0.0, ori_y=0.0, angle, ini_pos_x=0.0, ini_pos_y=0.0,ini_angle=0.0, distance; 
+double pos_x=0.0, pos_y=0.0, ori_x=0.0, ori_y=0.0, angle, ini_pos_x=0.0, ini_pos_y=0.0,ini_angle=0.0, distance, dif_angle; 
 using namespace std::chrono_literals;
 
 void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg){
@@ -17,6 +17,7 @@ void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg){
      ori_y= msg ->pose.pose.orientation.y;
      angle = std::atan2(ori_y,ori_x);
      distance = std::sqrt(std::pow(pos_x - ini_pos_x, 2) + std::pow(pos_y - ini_pos_y, 2));
+     dif_angle = 
      pos_x = msg->pose.pose.position.x;
      pos_y = msg->pose.pose.position.y;
      std::cout << "Initial x: " << ini_pos_x << std::endl;
