@@ -12,7 +12,7 @@ if(NOT CMAKE_CXX_STANDARD)
 endif()
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
+  add_compile_options(-Wall -Wextra -Wpedantic -I/usr/include/eigen3)
 endif()
 
 # find dependencies
@@ -20,23 +20,24 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
-find_package(std_msgs REQUIRED)
-find_package(sensor_msgs REQUIRED)
-
+find_package(sensor_msgs REQUIRED)  #laserScan
+# uncomment the following section in order to fill in
+# further dependencies manually.
+# find_package(<dependency> REQUIRED)
 
 add_executable(square src/square.cpp)
-ament_target_dependencies(square rclcpp geometry_msgs)
-
 add_executable(square_odom src/square_odom.cpp)
-ament_target_dependencies(square_odom rclcpp nav_msgs)
-
+add_executable(square_iterations src/square_iterations.cpp)
 add_executable(wandering src/wandering.cpp)
-ament_target_dependencies(wandering rclcpp geometry_msgs)
-ament_target_dependencies(wandering rclcpp sensor_msgs)
+ament_target_dependencies(square rclcpp geometry_msgs)
+ament_target_dependencies(square_iterations rclcpp geometry_msgs)
+ament_target_dependencies(square_odom rclcpp nav_msgs)
+ament_target_dependencies(wandering rclcpp geometry_msgs sensor_msgs)
 
-install(TARGETS
+install (TARGETS
   square
   square_odom
+  square_iterations
   wandering
   DESTINATION lib/${PROJECT_NAME}
 )
