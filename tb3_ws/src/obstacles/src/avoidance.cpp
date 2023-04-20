@@ -67,14 +67,14 @@ int main(int argc, char * argv[])
   	}
 
   	if (state == S1) {
-    	message.linear.x = 0.5;
+    	message.linear.x = 0.3;
     	message.angular.z = 0;
   	} else if (state == S2) {
     	message.linear.x = 0;
-    	message.angular.z = 0.5;
+    	message.angular.z = 0.3;
   	} else if (state == S3) {
     	message.linear.x = 0;
-    	message.angular.z = -0.5;
+    	message.angular.z = -0.3;
   	}
 
   	publisher->publish(message);
