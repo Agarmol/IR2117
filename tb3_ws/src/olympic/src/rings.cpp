@@ -5,9 +5,13 @@
 #include <cmath>
 #include <memory>
 #include <cstdlib>
+#include "turtlesim/srv/set_pen.hpp"
+#include "turtlesim/srv/teleport_absolute.hpp"
+
 
 using namespace std::chrono_literals;
 using turtlesim::srv::SetPen;
+using turtlesim::srv::TeleportAbsolute;
 
 int main(int argc, char * argv[])
 {
@@ -37,7 +41,11 @@ int main(int argc, char * argv[])
   request->green = 255; 
   request->blue = 0; 
   request->width = 0; 
-  request->off = 0; 
+  request->off = 0;
+  
+  std::vector<int> red = {255, 0, 255, 255, 0};
+  std::vector<int> green = {255, 0, 0, 255, 255};
+  std::vector<int> blue = {255, 255, 0, 0, 0}; 
 
   while (!client->wait_for_service(1s)) {
     if (!rclcpp::ok()) {
@@ -50,6 +58,35 @@ int main(int argc, char * argv[])
   auto result = client->async_send_request(request);
   // Wait for the result
   if (rclcpp::spin_until_future_complete(node,result) == rclcpp::FutureReturnCode::SUCCESS)
+  {
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Todo bien");
+  } else  {
+    RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service SetPen");
+  }
+  
+  // teleport
+  auto client_tp = node->create_client<TeleportAbsolute>("/turtle1/teleport_absolute");
+  
+  auto request_tp = std::make_shared<TeleportAbsolute::Request>();
+  // tp middle
+  request_tp->x = 2.5; 
+  request_tp->y = 2.5; 
+
+
+  std::vector<float> x = {5.5, 3.0, 8.0, 4.25, 6.75};
+  std::vector<float> y = {5.5, 5.5, 5.5, 3.25, 3.25};   
+
+  while (!client_tp->wait_for_service(1s)) {
+    if (!rclcpp::ok()) {
+      RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service.");
+      return 0;
+    }
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "service not available, waiting again...");
+  }
+
+  auto result_tp = client_tp->async_send_request(request_tp);
+  // Wait for the result
+  if (rclcpp::spin_until_future_complete(node,result_tp) == rclcpp::FutureReturnCode::SUCCESS)
   {
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Todo bien");
   } else  {
