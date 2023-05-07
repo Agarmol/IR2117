@@ -37,15 +37,11 @@ int main(int argc, char * argv[])
   
   auto request = std::make_shared<SetPen::Request>();
   // yellow
-  request->red = 255; 
-  request->green = 255; 
-  request->blue = 0; 
-  request->width = 0; 
-  request->off = 0;
+  request->width = 5; 
   
-  std::vector<int> red = {255, 0, 255, 255, 0};
-  std::vector<int> green = {255, 0, 0, 255, 255};
-  std::vector<int> blue = {255, 255, 0, 0, 0}; 
+  std::vector<int> red = {0, 0, 255, 255, 0};
+  std::vector<int> green = {0, 0, 0, 255, 255};
+  std::vector<int> blue = {0, 255, 0, 0, 0}; 
 
   while (!client->wait_for_service(1s)) {
     if (!rclcpp::ok()) {
@@ -69,12 +65,11 @@ int main(int argc, char * argv[])
   
   auto request_tp = std::make_shared<TeleportAbsolute::Request>();
   // tp middle
-  request_tp->x = 2.5; 
-  request_tp->y = 2.5; 
+  request_tp->x = 5.5; 
+  request_tp->y = 5.5; 
 
-
-  std::vector<float> x = {5.5, 3.0, 8.0, 4.25, 6.75};
-  std::vector<float> y = {5.5, 5.5, 5.5, 3.25, 3.25};   
+  std::vector<double> x = {5.5, (5.5-2*radius), (5.5+2*radius), (5.5-radius), (5.5+radius)};
+  std::vector<double> y = {5.5, 5.5, 5.5, (5.5-radius), (5.5-radius)};    
 
   while (!client_tp->wait_for_service(1s)) {
     if (!rclcpp::ok()) {
@@ -93,6 +88,19 @@ int main(int argc, char * argv[])
     RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service SetPen");
   }
   
+  for (int i=0; i<5; i++) {
+    request->off = 1;
+    request->red = red[i]; 
+    request->green = green[i]; 
+    request->blue = blue[i];
+    request_tp->x = x[i]; 
+    request_tp->y = y[i];
+    result = client->async_send_request(request);
+    result_tp = client_tp->async_send_request(request_tp);
+
+    request->off = 0;
+    result = client->async_send_request(request); 
+    
   for (int i = 0; i < iterations; i++) {
     message.linear.x = 1;
     message.angular.z = 2*M_PI / circle;
