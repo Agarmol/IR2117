@@ -1,0 +1,41 @@
+[35m[1mScanning dependencies of target rings[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rings.dir/src/rings.cpp.o[0m
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:71:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kradius[m[K’ was not declared in this scope
+   71 |   std::vector<double> x = {5.5, (5.5-2*[01;31m[Kradius[m[K), (5.5+2*radius), (5.5-radius), (5.5+radius)};
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:71:91:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{5.5e+0, <expression error>, <expression error>, <expression error>, <expression error>}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’
+   71 | 5, (5.5-2*radius), (5.5+2*radius), (5.5-radius), (5.5+radius)[01;31m[K}[m[K;
+      |                                                              [01;31m[K^[m[K
+      |                                                              [01;31m[K|[m[K
+      |                                                              [01;31m[K<brace-enclosed initializer list>[m[K
+
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:72:69:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{5.5e+0, 5.5e+0, 5.5e+0, <expression error>, <expression error>}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’
+   72 |   std::vector<double> y = {5.5, 5.5, 5.5, (5.5-radius), (5.5-radius)[01;31m[K}[m[K;
+      |                                                                     [01;31m[K^[m[K
+      |                                                                     [01;31m[K|[m[K
+      |                                                                     [01;31m[K<brace-enclosed initializer list>[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:93:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kred[m[K’
+   93 |     request->[01;31m[Kred[m[K = red[i];
+      |              [01;31m[K^~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:94:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kgreen[m[K’
+   94 |     request->[01;31m[Kgreen[m[K = green[i];
+      |              [01;31m[K^~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:95:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kblue[m[K’
+   95 |     request->[01;31m[Kblue[m[K = blue[i];
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:24:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpublish_count[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   24 |  auto [01;35m[Kpublish_count[m[K = 0;
+      |       [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:27:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradius_length[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   27 |  double [01;35m[Kradius_length[m[K = node->get_parameter("radius_length").get_parameter_value().get<double>();
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:118:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  118 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:17:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   17 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/rings.dir/build.make:63: CMakeFiles/rings.dir/src/rings.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rings.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,13 @@
+[0.030s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j6 -l6
+[0.056s] [35m[1mScanning dependencies of target wandering[0m
+[0.056s] [35m[1mScanning dependencies of target square_odom[0m
+[0.061s] [35m[1mScanning dependencies of target square[0m
+[0.125s] [ 16%] [32mBuilding CXX object CMakeFiles/square.dir/src/square.cpp.o[0m
+[0.129s] [ 33%] [32mBuilding CXX object CMakeFiles/square_odom.dir/src/square_odom.cpp.o[0m
+[0.132s] [ 50%] [32mBuilding CXX object CMakeFiles/wandering.dir/src/wandering.cpp.o[0m
+[2.439s] [ 66%] [32m[1mLinking CXX executable square[0m
+[2.682s] [ 66%] Built target square
+[4.434s] [ 83%] [32m[1mLinking CXX executable square_odom[0m
+[4.463s] [100%] [32m[1mLinking CXX executable wandering[0m
+[4.881s] [100%] Built target square_odom
+[4.909s] [100%] Built target wandering

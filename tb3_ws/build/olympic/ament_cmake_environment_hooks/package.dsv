@@ -1,0 +1,4 @@
+source;share/olympic/local_setup.bash
+source;share/olympic/local_setup.dsv
+source;share/olympic/local_setup.sh
+source;share/olympic/local_setup.zsh
