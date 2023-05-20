@@ -1,0 +1,2 @@
+Invoking command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces -- -j3 -l3
+Invoked command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces -- -j3 -l3

@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -Wpedantic -std=gnu++14
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic/include -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/include -isystem /opt/ros/foxy/include 
 

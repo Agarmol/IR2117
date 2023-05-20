@@ -1,0 +1,6 @@
+[0.040s] Invoking command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j3 -l3
+[0.070s] CMake Error: The current CMakeCache.txt directory /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic/CMakeCache.txt is different than the directory /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.087s] CMake Error: The source directory "/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic" does not exist.
+[0.087s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.089s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.094s] Invoked command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j3 -l3

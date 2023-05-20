@@ -1,0 +1,16 @@
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/rings
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/ament_index/resource_index/package_run_dependencies/olympic
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/ament_index/resource_index/parent_prefix_path/olympic
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/ament_prefix_path.sh
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/ament_prefix_path.dsv
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/path.sh
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/path.dsv
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.bash
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.sh
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.zsh
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.dsv
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.dsv
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/ament_index/resource_index/packages/olympic
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/cmake/olympicConfig.cmake
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/cmake/olympicConfig-version.cmake
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.xml

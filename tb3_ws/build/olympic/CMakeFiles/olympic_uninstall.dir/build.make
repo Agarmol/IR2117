@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic
+CMAKE_SOURCE_DIR = /home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic
+CMAKE_BINARY_DIR = /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic
 
 # Utility rule file for olympic_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic
 include CMakeFiles/olympic_uninstall.dir/progress.make
 
 CMakeFiles/olympic_uninstall:
-	/usr/bin/cmake -P /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 olympic_uninstall: CMakeFiles/olympic_uninstall
 olympic_uninstall: CMakeFiles/olympic_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/olympic_uninstall.dir/clean:
 .PHONY : CMakeFiles/olympic_uninstall.dir/clean
 
 CMakeFiles/olympic_uninstall.dir/depend:
-	cd /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic /home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic/CMakeFiles/olympic_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic /home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic/CMakeFiles/olympic_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/olympic_uninstall.dir/depend
 

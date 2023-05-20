@@ -1,0 +1,96 @@
+[0.041s] Invoking command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic -DCMAKE_INSTALL_PREFIX=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic
+[0.154s] -- The C compiler identification is GNU 9.4.0
+[0.227s] -- The CXX compiler identification is GNU 9.4.0
+[0.234s] -- Check for working C compiler: /usr/bin/cc
+[0.346s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.348s] -- Detecting C compiler ABI info
+[0.448s] -- Detecting C compiler ABI info - done
+[0.463s] -- Detecting C compile features
+[0.463s] -- Detecting C compile features - done
+[0.467s] -- Check for working CXX compiler: /usr/bin/c++
+[0.580s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.582s] -- Detecting CXX compiler ABI info
+[0.701s] -- Detecting CXX compiler ABI info - done
+[0.716s] -- Detecting CXX compile features
+[0.717s] -- Detecting CXX compile features - done
+[0.719s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.752s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.752s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.012s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.061s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.070s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.199s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.236s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.338s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.415s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.416s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.418s] -- Looking for pthread.h
+[1.533s] -- Looking for pthread.h - found
+[1.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.646s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.646s] -- Looking for pthread_create in pthreads
+[1.750s] -- Looking for pthread_create in pthreads - not found
+[1.750s] -- Looking for pthread_create in pthread
+[1.866s] -- Looking for pthread_create in pthread - found
+[1.867s] -- Found Threads: TRUE  
+[2.090s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.136s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[2.284s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.385s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.387s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.387s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/include>
+[2.387s] -- Configured cppcheck exclude dirs and/or files: 
+[2.389s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.389s] -- Configured cpplint exclude dirs and/or files: 
+[2.390s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.390s] -- Added test 'lint_cmake' to check CMake code style
+[2.391s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.392s] -- Added test 'uncrustify' to check C / C++ code style
+[2.392s] -- Configured uncrustify additional arguments: 
+[2.393s] -- Added test 'xmllint' to check XML markup files
+[2.397s] -- Configuring done
+[2.414s] -- Generating done
+[2.418s] -- Build files have been written to: /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic
+[2.436s] Invoked command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic -DCMAKE_INSTALL_PREFIX=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic
+[2.437s] Invoking command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j3 -l3
+[2.503s] [35m[1mScanning dependencies of target rings[0m
+[2.542s] [ 50%] [32mBuilding CXX object CMakeFiles/rings.dir/src/rings.cpp.o[0m
+[5.101s] [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.101s] [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:71:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kradius[m[K’ was not declared in this scope
+[5.101s]    71 |   std::vector<double> x = {5.5, (5.5-2*[01;31m[Kradius[m[K), (5.5+2*radius), (5.5-radius), (5.5+radius)};
+[5.101s]       |                                        [01;31m[K^~~~~~[m[K
+[5.101s] [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:71:91:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{5.5e+0, <expression error>, <expression error>, <expression error>, <expression error>}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’
+[5.101s]    71 |   std::vector<double> x = {5.5, (5.5-2*radius), (5.5+2*radius), (5.5-radius), (5.5+radius)[01;31m[K}[m[K;
+[5.101s]       |                                                                                           [01;31m[K^[m[K
+[5.101s]       |                                                                                           [01;31m[K|[m[K
+[5.101s]       |                                                                                           [01;31m[K<brace-enclosed initializer list>[m[K
+[5.101s] [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:72:69:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{5.5e+0, 5.5e+0, 5.5e+0, <expression error>, <expression error>}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’
+[5.102s]    72 |   std::vector<double> y = {5.5, 5.5, 5.5, (5.5-radius), (5.5-radius)[01;31m[K}[m[K;
+[5.102s]       |                                                                     [01;31m[K^[m[K
+[5.102s]       |                                                                     [01;31m[K|[m[K
+[5.102s]       |                                                                     [01;31m[K<brace-enclosed initializer list>[m[K
+[5.106s] [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:93:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kred[m[K’
+[5.106s]    93 |     request->[01;31m[Kred[m[K = red[i];
+[5.106s]       |              [01;31m[K^~~[m[K
+[5.106s] [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:94:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kgreen[m[K’
+[5.106s]    94 |     request->[01;31m[Kgreen[m[K = green[i];
+[5.106s]       |              [01;31m[K^~~~~[m[K
+[5.106s] [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:95:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kblue[m[K’
+[5.106s]    95 |     request->[01;31m[Kblue[m[K = blue[i];
+[5.106s]       |              [01;31m[K^~~~[m[K
+[5.124s] [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:24:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpublish_count[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[5.124s]    24 |  auto [01;35m[Kpublish_count[m[K = 0;
+[5.124s]       |       [01;35m[K^~~~~~~~~~~~~[m[K
+[5.124s] [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:27:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradius_length[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[5.124s]    27 |  double [01;35m[Kradius_length[m[K = node->get_parameter("radius_length").get_parameter_value().get<double>();
+[5.124s]       |         [01;35m[K^~~~~~~~~~~~~[m[K
+[5.124s] [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:118:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[5.124s]   118 | [01;31m[K}[m[K
+[5.124s]       | [01;31m[K^[m[K
+[5.124s] [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:17:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[5.124s]    17 | [01;36m[K{[m[K
+[5.125s]       | [01;36m[K^[m[K
+[7.025s] make[2]: *** [CMakeFiles/rings.dir/build.make:63: CMakeFiles/rings.dir/src/rings.cpp.o] Error 1
+[7.027s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rings.dir/all] Error 2
+[7.027s] make: *** [Makefile:141: all] Error 2
+[7.032s] Invoked command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j3 -l3

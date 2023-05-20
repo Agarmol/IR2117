@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp" "/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic/CMakeFiles/rings.dir/src/rings.cpp.o"
+  "/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp" "/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic/CMakeFiles/rings.dir/src/rings.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic/include"
+  "/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/include"
   "/opt/ros/foxy/include"
   )
 

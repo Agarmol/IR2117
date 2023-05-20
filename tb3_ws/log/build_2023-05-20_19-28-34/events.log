@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.002197] (-) JobUnselected: {'identifier': 'obstacles'}
+[0.002384] (-) JobUnselected: {'identifier': 'olympic_interfaces'}
+[0.002529] (-) JobUnselected: {'identifier': 'robot_trajectory'}
+[0.002563] (olympic) JobQueued: {'identifier': 'olympic', 'dependencies': OrderedDict()}
+[0.002598] (olympic) JobStarted: {'identifier': 'olympic'}
+[0.024581] (olympic) JobProgress: {'identifier': 'olympic', 'progress': 'cmake'}
+[0.034232] (olympic) Command: {'cmd': ['/usr/bin/cmake', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic', '-DCMAKE_INSTALL_PREFIX=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic'], 'cwd': '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adri'), ('SSH_AGENT_PID', '1084'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/adri'), ('OLDPWD', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adri'), ('JOURNAL_STREAM', '8:30367'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/adri-VirtualBox:@/tmp/.ICE-unix/1135,unix/adri-VirtualBox:/tmp/.ICE-unix/1135'), ('INVOCATION_ID', '3d94f066ae1e4d6f8678d079993be925'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/128ea3f2_ec13_4c96_bc3b_6e7ff616d024'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.096329] (-) TimerEvent: {}
+[0.156834] (olympic) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.196768] (-) TimerEvent: {}
+[0.229899] (olympic) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.236797] (olympic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.298049] (-) TimerEvent: {}
+[0.348671] (olympic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.350222] (olympic) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.398578] (-) TimerEvent: {}
+[0.450158] (olympic) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.465233] (olympic) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.465939] (olympic) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.469488] (olympic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.499309] (-) TimerEvent: {}
+[0.582627] (olympic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.584230] (olympic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600087] (-) TimerEvent: {}
+[0.701035] (-) TimerEvent: {}
+[0.703692] (olympic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.718120] (olympic) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.719506] (olympic) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.721507] (olympic) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.754168] (olympic) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.754412] (olympic) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.802002] (-) TimerEvent: {}
+[0.902540] (-) TimerEvent: {}
+[1.007381] (-) TimerEvent: {}
+[1.014749] (olympic) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.063061] (olympic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.072455] (olympic) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.107726] (-) TimerEvent: {}
+[1.201147] (olympic) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.217577] (-) TimerEvent: {}
+[1.238736] (olympic) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.317909] (-) TimerEvent: {}
+[1.340307] (olympic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.417033] (olympic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.418486] (olympic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.418725] (-) TimerEvent: {}
+[1.420244] (olympic) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.520674] (-) TimerEvent: {}
+[1.535490] (olympic) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.536160] (olympic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.621429] (-) TimerEvent: {}
+[1.648290] (olympic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.648868] (olympic) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.722652] (-) TimerEvent: {}
+[1.752712] (olympic) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.752971] (olympic) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.822899] (-) TimerEvent: {}
+[1.868204] (olympic) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.869919] (olympic) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.923903] (-) TimerEvent: {}
+[2.024693] (-) TimerEvent: {}
+[2.092404] (olympic) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[2.124997] (-) TimerEvent: {}
+[2.138738] (olympic) StdoutLine: {'line': b'-- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[2.227799] (-) TimerEvent: {}
+[2.286047] (olympic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.328196] (-) TimerEvent: {}
+[2.387613] (olympic) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.389716] (olympic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.389949] (olympic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/include>\n'}
+[2.390046] (olympic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.391458] (olympic) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.391666] (olympic) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.392180] (olympic) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.392763] (olympic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.393826] (olympic) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.394806] (olympic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.394984] (olympic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.395524] (olympic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.399672] (olympic) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.416504] (olympic) StdoutLine: {'line': b'-- Generating done\n'}
+[2.420294] (olympic) StdoutLine: {'line': b'-- Build files have been written to: /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic\n'}
+[2.429870] (-) TimerEvent: {}
+[2.433218] (olympic) CommandEnded: {'returncode': 0}
+[2.439549] (olympic) JobProgress: {'identifier': 'olympic', 'progress': 'build'}
+[2.439707] (olympic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic', '--', '-j3', '-l3'], 'cwd': '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adri'), ('SSH_AGENT_PID', '1084'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/adri'), ('OLDPWD', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adri'), ('JOURNAL_STREAM', '8:30367'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/adri-VirtualBox:@/tmp/.ICE-unix/1135,unix/adri-VirtualBox:/tmp/.ICE-unix/1135'), ('INVOCATION_ID', '3d94f066ae1e4d6f8678d079993be925'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/128ea3f2_ec13_4c96_bc3b_6e7ff616d024'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/opt/ros/foxy')]), 'shell': False}
+[2.505186] (olympic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rings\x1b[0m\n'}
+[2.530183] (-) TimerEvent: {}
+[2.544882] (olympic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rings.dir/src/rings.cpp.o\x1b[0m\n'}
+[2.630490] (-) TimerEvent: {}
+[2.730988] (-) TimerEvent: {}
+[2.832465] (-) TimerEvent: {}
+[2.934716] (-) TimerEvent: {}
+[3.037399] (-) TimerEvent: {}
+[3.138549] (-) TimerEvent: {}
+[3.239782] (-) TimerEvent: {}
+[3.340655] (-) TimerEvent: {}
+[3.442390] (-) TimerEvent: {}
+[3.543042] (-) TimerEvent: {}
+[3.644278] (-) TimerEvent: {}
+[3.745020] (-) TimerEvent: {}
+[3.846682] (-) TimerEvent: {}
+[3.953131] (-) TimerEvent: {}
+[4.054529] (-) TimerEvent: {}
+[4.155866] (-) TimerEvent: {}
+[4.258002] (-) TimerEvent: {}
+[4.358716] (-) TimerEvent: {}
+[4.459777] (-) TimerEvent: {}
+[4.560693] (-) TimerEvent: {}
+[4.662159] (-) TimerEvent: {}
+[4.766457] (-) TimerEvent: {}
+[4.867666] (-) TimerEvent: {}
+[4.968736] (-) TimerEvent: {}
+[5.069481] (-) TimerEvent: {}
+[5.103261] (olympic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.103514] (olympic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:71:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kradius\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.103600] (olympic) StderrLine: {'line': b'   71 |   std::vector<double> x = {5.5, (5.5-2*\x1b[01;31m\x1b[Kradius\x1b[m\x1b[K), (5.5+2*radius), (5.5-radius), (5.5+radius)};\n'}
+[5.103672] (olympic) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.103742] (olympic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:71:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[K{5.5e+0, <expression error>, <expression error>, <expression error>, <expression error>}\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.103815] (olympic) StderrLine: {'line': b'   71 |   std::vector<double> x = {5.5, (5.5-2*radius), (5.5+2*radius), (5.5-radius), (5.5+radius)\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[5.103886] (olympic) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.103964] (olympic) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[5.104032] (olympic) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\n'}
+[5.104105] (olympic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:72:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[K{5.5e+0, 5.5e+0, 5.5e+0, <expression error>, <expression error>}\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.104179] (olympic) StderrLine: {'line': b'   72 |   std::vector<double> y = {5.5, 5.5, 5.5, (5.5-radius), (5.5-radius)\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[5.104245] (olympic) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.104310] (olympic) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[5.104375] (olympic) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\n'}
+[5.108365] (olympic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:93:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct turtlesim::srv::SetPen_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct turtlesim::srv::SetPen_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kred\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.108590] (olympic) StderrLine: {'line': b'   93 |     request->\x1b[01;31m\x1b[Kred\x1b[m\x1b[K = red[i];\n'}
+[5.108661] (olympic) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.108729] (olympic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:94:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct turtlesim::srv::SetPen_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct turtlesim::srv::SetPen_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kgreen\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.108798] (olympic) StderrLine: {'line': b'   94 |     request->\x1b[01;31m\x1b[Kgreen\x1b[m\x1b[K = green[i];\n'}
+[5.108862] (olympic) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.108926] (olympic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:95:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct turtlesim::srv::SetPen_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct turtlesim::srv::SetPen_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kblue\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.108993] (olympic) StderrLine: {'line': b'   95 |     request->\x1b[01;31m\x1b[Kblue\x1b[m\x1b[K = blue[i];\n'}
+[5.109057] (olympic) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.126037] (olympic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:24:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpublish_count\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[5.126304] (olympic) StderrLine: {'line': b'   24 |  auto \x1b[01;35m\x1b[Kpublish_count\x1b[m\x1b[K = 0;\n'}
+[5.126412] (olympic) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.126498] (olympic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:27:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kradius_length\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[5.126581] (olympic) StderrLine: {'line': b'   27 |  double \x1b[01;35m\x1b[Kradius_length\x1b[m\x1b[K = node->get_parameter("radius_length").get_parameter_value().get<double>();\n'}
+[5.126664] (olympic) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.126753] (olympic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:118:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[5.126839] (olympic) StderrLine: {'line': b'  118 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[5.126915] (olympic) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.126991] (olympic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings.cpp:17:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.127068] (olympic) StderrLine: {'line': b'   17 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[5.127144] (olympic) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.169817] (-) TimerEvent: {}
+[5.270426] (-) TimerEvent: {}
+[5.371580] (-) TimerEvent: {}
+[5.472287] (-) TimerEvent: {}
+[5.573615] (-) TimerEvent: {}
+[5.674289] (-) TimerEvent: {}
+[5.774910] (-) TimerEvent: {}
+[5.876715] (-) TimerEvent: {}
+[5.977774] (-) TimerEvent: {}
+[6.078512] (-) TimerEvent: {}
+[6.180651] (-) TimerEvent: {}
+[6.289727] (-) TimerEvent: {}
+[6.390321] (-) TimerEvent: {}
+[6.491268] (-) TimerEvent: {}
+[6.592354] (-) TimerEvent: {}
+[6.696628] (-) TimerEvent: {}
+[6.797817] (-) TimerEvent: {}
+[6.898848] (-) TimerEvent: {}
+[7.000292] (-) TimerEvent: {}
+[7.023348] (olympic) StderrLine: {'line': b'make[2]: *** [CMakeFiles/rings.dir/build.make:63: CMakeFiles/rings.dir/src/rings.cpp.o] Error 1\n'}
+[7.029199] (olympic) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rings.dir/all] Error 2\n'}
+[7.029743] (olympic) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[7.034468] (olympic) CommandEnded: {'returncode': 2}
+[7.106268] (-) TimerEvent: {}
+[7.115853] (olympic) JobEnded: {'identifier': 'olympic', 'rc': 2}
+[7.128423] (-) EventReactorShutdown: {}

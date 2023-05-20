@@ -1,47 +1,51 @@
 #include <chrono>
-#include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
-#include "geometry_msgs/msg/twist.hpp"
-#include <cmath>
+#include <vector>
+#include <cmath> //M_PI
 #include <memory>
 #include <cstdlib>
+#include "rclcpp/rclcpp.hpp"
 #include "turtlesim/srv/set_pen.hpp"
 #include "turtlesim/srv/teleport_absolute.hpp"
-
+#include "geometry_msgs/msg/twist.hpp"
 
 using namespace std::chrono_literals;
 using turtlesim::srv::SetPen;
 using turtlesim::srv::TeleportAbsolute;
 
-int main(int argc, char * argv[])
+// void add(std::shared_ptr<SetPen::Request> request)
+// {
+//   RCLCPP_INFO(rclcpp::get_logger("rclcpp"),
+//               "Incoming request\nr: %ld, g: %ld, b: %ld, width: %ld, off: %ld",
+//               request->r, request->g, request->b, request->width, request->off);
+// }
+
+int main(int argc, char* argv[])
 {
- rclcpp::init(argc, argv);
- auto node = rclcpp::Node::make_shared("rings");
- auto publisher = node->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
+  rclcpp::init(argc, argv);
+  auto node = rclcpp::Node::make_shared("rings");
+  auto publisher = node->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
+  node->declare_parameter("radius", 1.0);
+  geometry_msgs::msg::Twist message;
+  rclcpp::WallRate loop_rate(10ms);
 
- node->declare_parameter("radius_length", 1.0);
- geometry_msgs::msg::Twist message;
- auto publish_count = 0;
- rclcpp::WallRate loop_rate(500ms);
- 
- double radius_length = node->get_parameter("radius_length").get_parameter_value().get<double>();
+  double radius = node->get_parameter("radius").get_parameter_value().get<double>();
 
- double circle= 2* M_PI;
+  double time_for_circle = 2 * M_PI * radius / 1.0; // time to complete a circle
+  int num_iterations = static_cast<int>(time_for_circle / 0.01); // number of iterations to complete a circle
+  
 
- int iterations = static_cast<int>(circle/0.500);
+  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Ready to set pen.");
 
- RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Ready to set pen.");
-
- //set_pen client
+  //set_pen client
   auto client = node->create_client<SetPen>("/turtle1/set_pen");
   
   auto request = std::make_shared<SetPen::Request>();
-  // yellow
+  // set pen yellow
   request->width = 5; 
-  
-  std::vector<int> red = {0, 0, 255, 255, 0};
-  std::vector<int> green = {0, 0, 0, 255, 255};
-  std::vector<int> blue = {0, 255, 0, 0, 0}; 
+
+  std::vector<int> r = {0, 0, 255, 255, 0};
+  std::vector<int> g = {0, 0, 0, 255, 255};
+  std::vector<int> b = {0, 255, 0, 0, 0};   
 
   while (!client->wait_for_service(1s)) {
     if (!rclcpp::ok()) {
@@ -69,7 +73,7 @@ int main(int argc, char * argv[])
   request_tp->y = 5.5; 
 
   std::vector<double> x = {5.5, (5.5-2*radius), (5.5+2*radius), (5.5-radius), (5.5+radius)};
-  std::vector<double> y = {5.5, 5.5, 5.5, (5.5-radius), (5.5-radius)};    
+  std::vector<double> y = {5.5, 5.5, 5.5, (5.5-radius), (5.5-radius)};   
 
   while (!client_tp->wait_for_service(1s)) {
     if (!rclcpp::ok()) {
@@ -86,13 +90,14 @@ int main(int argc, char * argv[])
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Todo bien");
   } else  {
     RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service SetPen");
-  }
-  
+  }  
+
+
   for (int i=0; i<5; i++) {
     request->off = 1;
-    request->red = red[i]; 
-    request->green = green[i]; 
-    request->blue = blue[i];
+    request->r = r[i]; 
+    request->g = g[i]; 
+    request->b = b[i];
     request_tp->x = x[i]; 
     request_tp->y = y[i];
     result = client->async_send_request(request);
@@ -100,20 +105,20 @@ int main(int argc, char * argv[])
 
     request->off = 0;
     result = client->async_send_request(request); 
-    
-  for (int i = 0; i < iterations; i++) {
-    message.linear.x = 1;
-    message.angular.z = 2*M_PI / circle;
-    publisher->publish(message);
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
- }
- 
-  message.linear.x = 0;
-  message.angular.z = 0;
-  publisher->publish(message);
-   
- rclcpp::shutdown();
- return 0;
-}
 
+    for (int j = 0; j < num_iterations; j++) { // do circle
+      message.linear.x = 1;
+      message.angular.z = 2 * M_PI / time_for_circle;
+      publisher->publish(message);
+      rclcpp::spin_some(node);
+      loop_rate.sleep();
+    }
+    // send zero velocity to topic
+    message.linear.x = 0;
+    message.angular.z = 0;
+    publisher->publish(message);
+  }
+  //off
+  rclcpp::shutdown();
+  return 0;
+}
