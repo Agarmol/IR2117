@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.002294] (-) JobUnselected: {'identifier': 'obstacles'}
+[0.002382] (-) JobUnselected: {'identifier': 'olympic_interfaces'}
+[0.002412] (-) JobUnselected: {'identifier': 'robot_trajectory'}
+[0.002443] (olympic) JobQueued: {'identifier': 'olympic', 'dependencies': OrderedDict([('olympic_interfaces', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces')])}
+[0.002483] (olympic) JobStarted: {'identifier': 'olympic'}
+[0.042346] (olympic) JobProgress: {'identifier': 'olympic', 'progress': 'cmake'}
+[0.042608] (olympic) JobProgress: {'identifier': 'olympic', 'progress': 'build'}
+[0.042651] (olympic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic', '--', '-j3', '-l3'], 'cwd': '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adri'), ('SSH_AGENT_PID', '1084'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/adri'), ('OLDPWD', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adri'), ('JOURNAL_STREAM', '8:30367'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/adri-VirtualBox:@/tmp/.ICE-unix/1135,unix/adri-VirtualBox:/tmp/.ICE-unix/1135'), ('INVOCATION_ID', '3d94f066ae1e4d6f8678d079993be925'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/128ea3f2_ec13_4c96_bc3b_6e7ff616d024'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '83'), ('AMENT_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/opt/ros/foxy')]), 'shell': False}
+[0.100842] (-) TimerEvent: {}
+[0.143301] (olympic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_server\x1b[0m\n'}
+[0.150880] (olympic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_client\x1b[0m\n'}
+[0.208219] (-) TimerEvent: {}
+[0.208645] (olympic) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o\x1b[0m\n'}
+[0.215438] (olympic) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o\x1b[0m\n'}
+[0.219507] (olympic) StdoutLine: {'line': b'[ 66%] Built target rings\n'}
+[0.308787] (-) TimerEvent: {}
+[0.410103] (-) TimerEvent: {}
+[0.511023] (-) TimerEvent: {}
+[0.619818] (-) TimerEvent: {}
+[0.721582] (-) TimerEvent: {}
+[0.823427] (-) TimerEvent: {}
+[0.924439] (-) TimerEvent: {}
+[1.025297] (-) TimerEvent: {}
+[1.126280] (-) TimerEvent: {}
+[1.227902] (-) TimerEvent: {}
+[1.328887] (-) TimerEvent: {}
+[1.430470] (-) TimerEvent: {}
+[1.531895] (-) TimerEvent: {}
+[1.633183] (-) TimerEvent: {}
+[1.734038] (-) TimerEvent: {}
+[1.834972] (-) TimerEvent: {}
+[1.936142] (-) TimerEvent: {}
+[2.038050] (-) TimerEvent: {}
+[2.138579] (-) TimerEvent: {}
+[2.239126] (-) TimerEvent: {}
+[2.339837] (-) TimerEvent: {}
+[2.440415] (-) TimerEvent: {}
+[2.541450] (-) TimerEvent: {}
+[2.642005] (-) TimerEvent: {}
+[2.742506] (-) TimerEvent: {}
+[2.842930] (-) TimerEvent: {}
+[2.943878] (-) TimerEvent: {}
+[3.045205] (-) TimerEvent: {}
+[3.146048] (-) TimerEvent: {}
+[3.247534] (-) TimerEvent: {}
+[3.348888] (-) TimerEvent: {}
+[3.449628] (-) TimerEvent: {}
+[3.550140] (-) TimerEvent: {}
+[3.650864] (-) TimerEvent: {}
+[3.751300] (-) TimerEvent: {}
+[3.859222] (-) TimerEvent: {}
+[3.960136] (-) TimerEvent: {}
+[4.061439] (-) TimerEvent: {}
+[4.162024] (-) TimerEvent: {}
+[4.262874] (-) TimerEvent: {}
+[4.364326] (-) TimerEvent: {}
+[4.472809] (-) TimerEvent: {}
+[4.716549] (-) TimerEvent: {}
+[4.977478] (-) TimerEvent: {}
+[5.191549] (-) TimerEvent: {}
+[5.416080] (-) TimerEvent: {}
+[5.542786] (-) TimerEvent: {}
+[5.654078] (-) TimerEvent: {}
+[5.762466] (-) TimerEvent: {}
+[5.864335] (-) TimerEvent: {}
+[6.010891] (-) TimerEvent: {}
+[6.028327] (olympic) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable action_client\x1b[0m\n'}
+[6.118199] (-) TimerEvent: {}
+[6.225902] (-) TimerEvent: {}
+[6.323447] (olympic) StdoutLine: {'line': b'[ 83%] Built target action_client\n'}
+[6.326503] (-) TimerEvent: {}
+[6.427949] (-) TimerEvent: {}
+[6.529105] (-) TimerEvent: {}
+[6.629952] (-) TimerEvent: {}
+[6.730721] (-) TimerEvent: {}
+[6.831789] (-) TimerEvent: {}
+[6.932199] (-) TimerEvent: {}
+[7.032807] (-) TimerEvent: {}
+[7.133346] (-) TimerEvent: {}
+[7.234146] (-) TimerEvent: {}
+[7.334738] (-) TimerEvent: {}
+[7.436457] (-) TimerEvent: {}
+[7.537693] (-) TimerEvent: {}
+[7.638091] (-) TimerEvent: {}
+[7.738908] (-) TimerEvent: {}
+[7.839636] (-) TimerEvent: {}
+[7.940245] (-) TimerEvent: {}
+[8.040697] (-) TimerEvent: {}
+[8.142470] (-) TimerEvent: {}
+[8.244882] (-) TimerEvent: {}
+[8.346964] (-) TimerEvent: {}
+[8.448355] (-) TimerEvent: {}
+[8.549883] (-) TimerEvent: {}
+[8.650711] (-) TimerEvent: {}
+[8.751567] (-) TimerEvent: {}
+[8.852273] (-) TimerEvent: {}
+[8.953085] (-) TimerEvent: {}
+[9.056746] (-) TimerEvent: {}
+[9.729591] (-) TimerEvent: {}
+[9.836078] (-) TimerEvent: {}
+[9.937552] (-) TimerEvent: {}
+[10.092206] (-) TimerEvent: {}
+[10.198270] (-) TimerEvent: {}
+[10.299745] (-) TimerEvent: {}
+[10.400665] (-) TimerEvent: {}
+[10.501942] (-) TimerEvent: {}
+[10.514387] (olympic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable action_server\x1b[0m\n'}
+[10.602141] (-) TimerEvent: {}
+[10.702918] (-) TimerEvent: {}
+[10.804240] (-) TimerEvent: {}
+[10.905155] (-) TimerEvent: {}
+[10.969011] (olympic) StdoutLine: {'line': b'[100%] Built target action_server\n'}
+[10.997024] (olympic) CommandEnded: {'returncode': 0}
+[11.006302] (-) TimerEvent: {}
+[11.072529] (olympic) JobProgress: {'identifier': 'olympic', 'progress': 'install'}
+[11.092319] (olympic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic'], 'cwd': '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adri'), ('SSH_AGENT_PID', '1084'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/adri'), ('OLDPWD', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adri'), ('JOURNAL_STREAM', '8:30367'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/adri-VirtualBox:@/tmp/.ICE-unix/1135,unix/adri-VirtualBox:/tmp/.ICE-unix/1135'), ('INVOCATION_ID', '3d94f066ae1e4d6f8678d079993be925'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/128ea3f2_ec13_4c96_bc3b_6e7ff616d024'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '83'), ('AMENT_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/opt/ros/foxy')]), 'shell': False}
+[11.103101] (olympic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.103801] (olympic) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/rings\n'}
+[11.104063] (olympic) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/action_server\n'}
+[11.106001] (olympic) StdoutLine: {'line': b'-- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/action_server" to ""\n'}
+[11.106204] (olympic) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/action_client\n'}
+[11.106846] (-) TimerEvent: {}
+[11.107137] (olympic) StdoutLine: {'line': b'-- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/action_client" to ""\n'}
+[11.107644] (olympic) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/launch\n'}
+[11.107727] (olympic) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/launch/olympic_rings.launch.py\n'}
+[11.107846] (olympic) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/ament_index/resource_index/package_run_dependencies/olympic\n'}
+[11.108327] (olympic) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/ament_index/resource_index/parent_prefix_path/olympic\n'}
+[11.109323] (olympic) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/ament_prefix_path.sh\n'}
+[11.109952] (olympic) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/ament_prefix_path.dsv\n'}
+[11.110352] (olympic) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/path.sh\n'}
+[11.110517] (olympic) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/path.dsv\n'}
+[11.110749] (olympic) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.bash\n'}
+[11.111642] (olympic) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.sh\n'}
+[11.111870] (olympic) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.zsh\n'}
+[11.112051] (olympic) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.dsv\n'}
+[11.112428] (olympic) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.dsv\n'}
+[11.112667] (olympic) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/ament_index/resource_index/packages/olympic\n'}
+[11.112904] (olympic) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/cmake/olympicConfig.cmake\n'}
+[11.113075] (olympic) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/cmake/olympicConfig-version.cmake\n'}
+[11.113308] (olympic) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.xml\n'}
+[11.116847] (olympic) CommandEnded: {'returncode': 0}
+[11.208659] (-) TimerEvent: {}
+[11.236759] (olympic) JobEnded: {'identifier': 'olympic', 'rc': 0}
+[11.239266] (-) EventReactorShutdown: {}

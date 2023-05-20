@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target action_server[0m
+[35m[1mScanning dependencies of target action_client[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[ 66%] Built target rings
+[ 83%] [32m[1mLinking CXX executable action_client[0m
+[ 83%] Built target action_client
+[100%] [32m[1mLinking CXX executable action_server[0m
+[100%] Built target action_server
+-- Install configuration: ""
+-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/rings
+-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/action_server
+-- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/action_server" to ""
+-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/action_client
+-- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/action_client" to ""
+-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/launch
+-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/launch/olympic_rings.launch.py
+-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/ament_index/resource_index/package_run_dependencies/olympic
+-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/ament_index/resource_index/parent_prefix_path/olympic
+-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/ament_prefix_path.sh
+-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/path.sh
+-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/path.dsv
+-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.bash
+-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.sh
+-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.zsh
+-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.dsv
+-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.dsv
+-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/ament_index/resource_index/packages/olympic
+-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/cmake/olympicConfig.cmake
+-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/cmake/olympicConfig-version.cmake
+-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.xml

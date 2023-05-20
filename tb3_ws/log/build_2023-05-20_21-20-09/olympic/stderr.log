@@ -1,0 +1,26 @@
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/action_client.cpp:4[m[K:
+[01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/action_client.cpp:[m[K In function ‘[01m[Kvoid feedback_callback(rclcpp_action::ClientGoalHandle<olympic_interfaces::action::Rings>::SharedPtr, std::shared_ptr<const olympic_interfaces::action::Rings_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/action_client.cpp:23:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct olympic_interfaces::action::Rings_Feedback_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct olympic_interfaces::action::Rings_Feedback_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpartial_sequence[m[K’
+   23 |     feedback->[01;31m[Kpartial_sequence[m[K.back());
+      |               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/action_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/action_client.cpp:40:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct olympic_interfaces::action::Rings_Goal_<std::allocator<void> >[m[K’ has no member named ‘[01m[Korder[m[K’
+   40 |   goal_msg.[01;31m[Korder[m[K = 10;
+      |            [01;31m[K^~~~~[m[K
+[01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/action_client.cpp:85:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrapped_result[m[K’ was not declared in this scope
+   85 |   for (auto number : [01;31m[Kwrapped_result[m[K.result->sequence) {
+      |                      [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/action_client.dir/build.make:63: CMakeFiles/action_client.dir/src/action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/action_client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

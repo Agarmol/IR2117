@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic_interfaces
+CMAKE_SOURCE_DIR = /home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces
+CMAKE_BINARY_DIR = /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces
 
 # Utility rule file for olympic_interfaces_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic_i
 include CMakeFiles/olympic_interfaces_uninstall.dir/progress.make
 
 CMakeFiles/olympic_interfaces_uninstall:
-	/usr/bin/cmake -P /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 olympic_interfaces_uninstall: CMakeFiles/olympic_interfaces_uninstall
 olympic_interfaces_uninstall: CMakeFiles/olympic_interfaces_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/olympic_interfaces_uninstall.dir/clean:
 .PHONY : CMakeFiles/olympic_interfaces_uninstall.dir/clean
 
 CMakeFiles/olympic_interfaces_uninstall.dir/depend:
-	cd /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic_interfaces /home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/olympic_interfaces /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces/CMakeFiles/olympic_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic_interfaces /home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic_interfaces /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces/CMakeFiles/olympic_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/olympic_interfaces_uninstall.dir/depend
 

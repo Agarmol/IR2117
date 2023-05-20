@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.001705] (-) JobUnselected: {'identifier': 'obstacles'}
+[0.001762] (-) JobUnselected: {'identifier': 'olympic'}
+[0.001784] (-) JobUnselected: {'identifier': 'olympic_interfaces'}
+[0.001803] (-) JobUnselected: {'identifier': 'robot_trajectory'}
+[0.001821] (-) EventReactorShutdown: {}

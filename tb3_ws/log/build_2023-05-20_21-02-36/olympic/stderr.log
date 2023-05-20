@@ -1,0 +1,14 @@
+[01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings_action_client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kolympic_interfaces/action/rings.hpp: No such file or directory
+    3 | #include [01;31m[K"olympic_interfaces/action/rings.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/rings_action_client.dir/build.make:63: CMakeFiles/rings_action_client.dir/src/rings_action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/rings_action_client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings_action_server.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kolympic_interfaces/action/rings.hpp: No such file or directory
+    4 | #include [01;31m[K"olympic_interfaces/action/rings.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/rings_action_server.dir/build.make:63: CMakeFiles/rings_action_server.dir/src/rings_action_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/rings_action_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target rings_action_server[0m
+[35m[1mScanning dependencies of target rings_action_client[0m
+[ 33%] Built target rings
+[ 50%] [32mBuilding CXX object CMakeFiles/rings_action_client.dir/src/rings_action_client.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rings_action_server.dir/src/rings_action_server.cpp.o[0m

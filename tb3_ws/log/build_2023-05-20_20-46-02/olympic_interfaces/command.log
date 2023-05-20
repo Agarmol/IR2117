@@ -1,0 +1,1 @@
+Invoking command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic_interfaces -DCMAKE_INSTALL_PREFIX=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces

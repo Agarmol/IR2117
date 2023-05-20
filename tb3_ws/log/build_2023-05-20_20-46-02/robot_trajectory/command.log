@@ -1,0 +1,2 @@
+Invoking command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j3 -l3
+Invoked command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j3 -l3

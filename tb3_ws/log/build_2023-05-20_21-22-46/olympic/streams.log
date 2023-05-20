@@ -1,0 +1,36 @@
+[0.042s] Invoking command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/opt/ros/foxy LD_LIBRARY_PATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j3 -l3
+[0.142s] [35m[1mScanning dependencies of target action_server[0m
+[0.149s] [35m[1mScanning dependencies of target action_client[0m
+[0.206s] [ 16%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[0.213s] [ 33%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[0.217s] [ 66%] Built target rings
+[6.026s] [ 83%] [32m[1mLinking CXX executable action_client[0m
+[6.321s] [ 83%] Built target action_client
+[10.512s] [100%] [32m[1mLinking CXX executable action_server[0m
+[10.967s] [100%] Built target action_server
+[10.996s] Invoked command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '0': CMAKE_PREFIX_PATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/opt/ros/foxy LD_LIBRARY_PATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j3 -l3
+[11.090s] Invoking command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/opt/ros/foxy LD_LIBRARY_PATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic
+[11.101s] -- Install configuration: ""
+[11.101s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/rings
+[11.102s] -- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/action_server
+[11.104s] -- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/action_server" to ""
+[11.104s] -- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/action_client
+[11.105s] -- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/action_client" to ""
+[11.105s] -- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/launch
+[11.105s] -- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/launch/olympic_rings.launch.py
+[11.105s] -- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/ament_index/resource_index/package_run_dependencies/olympic
+[11.107s] -- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/ament_index/resource_index/parent_prefix_path/olympic
+[11.107s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/ament_prefix_path.sh
+[11.108s] -- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/ament_prefix_path.dsv
+[11.108s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/path.sh
+[11.108s] -- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/path.dsv
+[11.109s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.bash
+[11.109s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.sh
+[11.110s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.zsh
+[11.110s] -- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/local_setup.dsv
+[11.110s] -- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.dsv
+[11.110s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/ament_index/resource_index/packages/olympic
+[11.111s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/cmake/olympicConfig.cmake
+[11.111s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/cmake/olympicConfig-version.cmake
+[11.111s] -- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.xml
+[11.115s] Invoked command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '0': CMAKE_PREFIX_PATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/opt/ros/foxy LD_LIBRARY_PATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic

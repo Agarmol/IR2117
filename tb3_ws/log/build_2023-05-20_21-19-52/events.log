@@ -1,0 +1,291 @@
+[0.000000] (-) TimerEvent: {}
+[0.000491] (-) JobUnselected: {'identifier': 'obstacles'}
+[0.000547] (-) JobUnselected: {'identifier': 'olympic'}
+[0.000573] (-) JobUnselected: {'identifier': 'robot_trajectory'}
+[0.000601] (olympic_interfaces) JobQueued: {'identifier': 'olympic_interfaces', 'dependencies': OrderedDict()}
+[0.000628] (olympic_interfaces) JobStarted: {'identifier': 'olympic_interfaces'}
+[0.024749] (olympic_interfaces) JobProgress: {'identifier': 'olympic_interfaces', 'progress': 'cmake'}
+[0.034030] (olympic_interfaces) JobProgress: {'identifier': 'olympic_interfaces', 'progress': 'build'}
+[0.042166] (olympic_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces', '--', '-j3', '-l3'], 'cwd': '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adri'), ('SSH_AGENT_PID', '1084'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/adri'), ('OLDPWD', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adri'), ('JOURNAL_STREAM', '8:30367'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/adri-VirtualBox:@/tmp/.ICE-unix/1135,unix/adri-VirtualBox:/tmp/.ICE-unix/1135'), ('INVOCATION_ID', '3d94f066ae1e4d6f8678d079993be925'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/128ea3f2_ec13_4c96_bc3b_6e7ff616d024'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '83'), ('AMENT_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.095192] (-) TimerEvent: {}
+[0.167938] (olympic_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.195710] (-) TimerEvent: {}
+[0.206348] (olympic_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.296808] (-) TimerEvent: {}
+[0.397843] (-) TimerEvent: {}
+[0.465431] (olympic_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.498462] (-) TimerEvent: {}
+[0.558330] (olympic_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.564184] (olympic_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.574461] (olympic_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.598796] (-) TimerEvent: {}
+[0.699940] (-) TimerEvent: {}
+[0.740882] (olympic_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.785236] (olympic_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.800396] (-) TimerEvent: {}
+[0.893245] (olympic_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.906618] (-) TimerEvent: {}
+[0.969923] (olympic_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.007357] (-) TimerEvent: {}
+[1.109843] (-) TimerEvent: {}
+[1.187177] (olympic_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.210349] (-) TimerEvent: {}
+[1.311470] (-) TimerEvent: {}
+[1.412498] (-) TimerEvent: {}
+[1.424762] (olympic_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.478756] (olympic_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.513139] (-) TimerEvent: {}
+[1.521472] (olympic_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.527985] (olympic_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.582084] (olympic_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.582357] (olympic_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.582850] (olympic_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.582959] (olympic_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.612918] (olympic_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.613187] (-) TimerEvent: {}
+[1.699139] (olympic_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.706162] (olympic_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.708356] (olympic_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.708763] (olympic_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.713607] (-) TimerEvent: {}
+[1.717708] (olympic_interfaces) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.717935] (olympic_interfaces) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.718881] (olympic_interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.721420] (olympic_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.722750] (olympic_interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.729653] (olympic_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.729903] (olympic_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.731229] (olympic_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.760599] (olympic_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.813929] (-) TimerEvent: {}
+[1.847825] (olympic_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.859155] (olympic_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces\n'}
+[1.904035] (olympic_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.904279] (olympic_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target olympic_interfaces__cpp\x1b[0m\n'}
+[1.914240] (-) TimerEvent: {}
+[1.922648] (olympic_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.014721] (-) TimerEvent: {}
+[2.133019] (-) TimerEvent: {}
+[2.338099] (-) TimerEvent: {}
+[2.445303] (-) TimerEvent: {}
+[2.498327] (olympic_interfaces) StdoutLine: {'line': b'[  6%] Built target olympic_interfaces__cpp\n'}
+[2.516707] (olympic_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.527447] (olympic_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.527881] (olympic_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target olympic_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.550865] (-) TimerEvent: {}
+[2.557007] (olympic_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/olympic_interfaces__rosidl_generator_c.dir/rosidl_generator_c/olympic_interfaces/action/detail/rings__functions.c.o\x1b[0m\n'}
+[2.777664] (-) TimerEvent: {}
+[2.883084] (-) TimerEvent: {}
+[2.900322] (olympic_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libolympic_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.987360] (-) TimerEvent: {}
+[3.011317] (olympic_interfaces) StdoutLine: {'line': b'[ 19%] Built target olympic_interfaces__rosidl_generator_c\n'}
+[3.027539] (olympic_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.081626] (olympic_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target olympic_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.119174] (olympic_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/olympic_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/olympic_interfaces/action/detail/rings__type_support.cpp.o\x1b[0m\n'}
+[3.119501] (-) TimerEvent: {}
+[3.152246] (olympic_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target olympic_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.197520] (olympic_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/olympic_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/olympic_interfaces/action/detail/dds_fastrtps/rings__type_support.cpp.o\x1b[0m\n'}
+[3.266264] (-) TimerEvent: {}
+[3.388906] (-) TimerEvent: {}
+[3.405256] (olympic_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target olympic_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.430275] (olympic_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/olympic_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/olympic_interfaces/action/rings__type_support.cpp.o\x1b[0m\n'}
+[3.643902] (olympic_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libolympic_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.644147] (-) TimerEvent: {}
+[3.794012] (olympic_interfaces) StdoutLine: {'line': b'[ 35%] Built target olympic_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.794313] (-) TimerEvent: {}
+[3.810941] (olympic_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.872700] (olympic_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libolympic_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.897839] (-) TimerEvent: {}
+[3.919577] (olympic_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libolympic_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.935458] (olympic_interfaces) StdoutLine: {'line': b'[ 45%] Built target olympic_interfaces__rosidl_typesupport_cpp\n'}
+[3.957501] (olympic_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.090540] (-) TimerEvent: {}
+[4.147825] (olympic_interfaces) StdoutLine: {'line': b'[ 48%] Built target olympic_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.168678] (olympic_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.200303] (-) TimerEvent: {}
+[4.335906] (-) TimerEvent: {}
+[4.364781] (olympic_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target olympic_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.404570] (olympic_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/olympic_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/olympic_interfaces/action/detail/rings__type_support.c.o\x1b[0m\n'}
+[4.412045] (olympic_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target olympic_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[4.437795] (olympic_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/olympic_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/olympic_interfaces/action/rings__type_support.cpp.o\x1b[0m\n'}
+[4.438033] (-) TimerEvent: {}
+[4.468493] (olympic_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libolympic_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.514493] (olympic_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libolympic_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.521038] (olympic_interfaces) StdoutLine: {'line': b'[ 64%] Built target olympic_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.540889] (-) TimerEvent: {}
+[4.575969] (olympic_interfaces) StdoutLine: {'line': b'[ 64%] Built target olympic_interfaces__rosidl_typesupport_c\n'}
+[4.641431] (-) TimerEvent: {}
+[4.682609] (olympic_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target olympic_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.715683] (olympic_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/olympic_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/olympic_interfaces/action/detail/rings__type_support_c.cpp.o\x1b[0m\n'}
+[4.748301] (-) TimerEvent: {}
+[5.054128] (-) TimerEvent: {}
+[5.176064] (-) TimerEvent: {}
+[5.209372] (olympic_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libolympic_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.276572] (-) TimerEvent: {}
+[5.377831] (-) TimerEvent: {}
+[5.412628] (olympic_interfaces) StdoutLine: {'line': b'[ 70%] Built target olympic_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.433211] (olympic_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target olympic_interfaces\x1b[0m\n'}
+[5.455253] (olympic_interfaces) StdoutLine: {'line': b'[ 70%] Built target olympic_interfaces\n'}
+[5.479249] (-) TimerEvent: {}
+[5.481836] (olympic_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target olympic_interfaces__py\x1b[0m\n'}
+[5.507037] (olympic_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.580554] (-) TimerEvent: {}
+[5.681429] (-) TimerEvent: {}
+[5.783491] (-) TimerEvent: {}
+[5.886341] (-) TimerEvent: {}
+[5.987748] (-) TimerEvent: {}
+[6.088431] (-) TimerEvent: {}
+[6.190202] (-) TimerEvent: {}
+[6.415437] (-) TimerEvent: {}
+[6.516465] (-) TimerEvent: {}
+[6.629022] (-) TimerEvent: {}
+[6.732164] (-) TimerEvent: {}
+[6.832948] (-) TimerEvent: {}
+[6.934694] (-) TimerEvent: {}
+[6.965185] (olympic_interfaces) StdoutLine: {'line': b'[ 74%] Built target olympic_interfaces__py\n'}
+[6.983076] (olympic_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target olympic_interfaces__python\x1b[0m\n'}
+[7.035223] (-) TimerEvent: {}
+[7.134347] (olympic_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/olympic_interfaces__python.dir/rosidl_generator_py/olympic_interfaces/action/_rings_s.c.o\x1b[0m\n'}
+[7.135768] (-) TimerEvent: {}
+[7.236515] (-) TimerEvent: {}
+[7.337562] (-) TimerEvent: {}
+[7.403246] (olympic_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/olympic_interfaces/libolympic_interfaces__python.so\x1b[0m\n'}
+[7.438487] (-) TimerEvent: {}
+[7.484126] (olympic_interfaces) StdoutLine: {'line': b'[ 80%] Built target olympic_interfaces__python\n'}
+[7.502373] (olympic_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target olympic_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.502606] (olympic_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target olympic_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.502723] (olympic_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target olympic_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.534074] (olympic_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/olympic_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/olympic_interfaces/_olympic_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.534431] (olympic_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/olympic_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/olympic_interfaces/_olympic_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.534701] (olympic_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/olympic_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/olympic_interfaces/_olympic_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.540153] (-) TimerEvent: {}
+[7.642838] (-) TimerEvent: {}
+[7.683978] (olympic_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/olympic_interfaces/olympic_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.695696] (olympic_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/olympic_interfaces/olympic_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.706335] (olympic_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/olympic_interfaces/olympic_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.745225] (-) TimerEvent: {}
+[7.760607] (olympic_interfaces) StdoutLine: {'line': b'[100%] Built target olympic_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[7.760860] (olympic_interfaces) StdoutLine: {'line': b'[100%] Built target olympic_interfaces__rosidl_typesupport_c__pyext\n'}
+[7.794625] (olympic_interfaces) StdoutLine: {'line': b'[100%] Built target olympic_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.816708] (olympic_interfaces) CommandEnded: {'returncode': 0}
+[7.845652] (-) TimerEvent: {}
+[7.946587] (-) TimerEvent: {}
+[7.971271] (olympic_interfaces) JobProgress: {'identifier': 'olympic_interfaces', 'progress': 'install'}
+[7.996591] (olympic_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces'], 'cwd': '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adri'), ('SSH_AGENT_PID', '1084'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/adri'), ('OLDPWD', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adri'), ('JOURNAL_STREAM', '8:30367'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/adri-VirtualBox:@/tmp/.ICE-unix/1135,unix/adri-VirtualBox:/tmp/.ICE-unix/1135'), ('INVOCATION_ID', '3d94f066ae1e4d6f8678d079993be925'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/128ea3f2_ec13_4c96_bc3b_6e7ff616d024'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '83'), ('AMENT_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/opt/ros/foxy')]), 'shell': False}
+[8.012429] (olympic_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.013402] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/ament_index/resource_index/rosidl_interfaces/olympic_interfaces\n'}
+[8.014014] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces\n'}
+[8.015152] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/msg\n'}
+[8.017000] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.017884] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action\n'}
+[8.018096] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail\n'}
+[8.018903] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail/rings__functions.c\n'}
+[8.019019] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail/rings__struct.h\n'}
+[8.019107] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail/rings__type_support.h\n'}
+[8.019379] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail/rings__functions.h\n'}
+[8.021772] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/rings.h\n'}
+[8.021958] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/environment/library_path.sh\n'}
+[8.022129] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/environment/library_path.dsv\n'}
+[8.022476] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__rosidl_generator_c.so\n'}
+[8.022806] (olympic_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.023432] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces\n'}
+[8.023654] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/msg\n'}
+[8.025075] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.025436] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action\n'}
+[8.025586] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail\n'}
+[8.025896] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail/rings__rosidl_typesupport_fastrtps_c.h\n'}
+[8.026025] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.026126] (olympic_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.026261] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces\n'}
+[8.026359] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/msg\n'}
+[8.026452] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.026543] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action\n'}
+[8.026633] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail\n'}
+[8.026752] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail/rings__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.026912] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail/dds_fastrtps\n'}
+[8.027019] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.027131] (olympic_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.027395] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces\n'}
+[8.027574] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/msg\n'}
+[8.028897] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.029080] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action\n'}
+[8.029223] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail\n'}
+[8.030675] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail/rings__type_support.c\n'}
+[8.030892] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail/rings__rosidl_typesupport_introspection_c.h\n'}
+[8.030975] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.031045] (olympic_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.031814] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__rosidl_typesupport_c.so\n'}
+[8.031963] (olympic_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.032036] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces\n'}
+[8.032104] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action\n'}
+[8.032173] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail\n'}
+[8.032268] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail/rings__struct.hpp\n'}
+[8.032430] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail/rings__traits.hpp\n'}
+[8.033142] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail/rings__builder.hpp\n'}
+[8.033219] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/rings.hpp\n'}
+[8.033286] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces\n'}
+[8.033353] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action\n'}
+[8.033432] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail\n'}
+[8.033500] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail/rings__type_support.cpp\n'}
+[8.033568] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/include/olympic_interfaces/action/detail/rings__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.033973] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.034114] (olympic_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.034206] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.034607] (olympic_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.034709] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/environment/pythonpath.sh\n'}
+[8.034778] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/environment/pythonpath.dsv\n'}
+[8.035161] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages/olympic_interfaces/__init__.py\n'}
+[8.053882] (-) TimerEvent: {}
+[8.084016] (olympic_interfaces) StdoutLine: {'line': b"Compiling '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages/olympic_interfaces/__init__.py'...\n"}
+[8.089472] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages/olympic_interfaces/action\n'}
+[8.090794] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages/olympic_interfaces/action/_rings_s.c\n'}
+[8.092472] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages/olympic_interfaces/action/_rings.py\n'}
+[8.092761] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages/olympic_interfaces/action/__init__.py\n'}
+[8.092862] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages/olympic_interfaces/olympic_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.094573] (olympic_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages/olympic_interfaces/olympic_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[8.095555] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages/olympic_interfaces/olympic_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.096907] (olympic_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages/olympic_interfaces/olympic_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[8.097826] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages/olympic_interfaces/olympic_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.098711] (olympic_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages/olympic_interfaces/olympic_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[8.098904] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__python.so\n'}
+[8.102233] (olympic_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/lib/libolympic_interfaces__python.so" to ""\n'}
+[8.104078] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/action/Rings.idl\n'}
+[8.104322] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/action/Rings.action\n'}
+[8.104713] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/ament_index/resource_index/package_run_dependencies/olympic_interfaces\n'}
+[8.105196] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/ament_index/resource_index/parent_prefix_path/olympic_interfaces\n'}
+[8.105555] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/environment/ament_prefix_path.sh\n'}
+[8.105754] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.106073] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/environment/path.sh\n'}
+[8.106258] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/environment/path.dsv\n'}
+[8.106729] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/local_setup.bash\n'}
+[8.108494] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/local_setup.sh\n'}
+[8.109920] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/local_setup.zsh\n'}
+[8.110263] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/local_setup.dsv\n'}
+[8.110395] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/package.dsv\n'}
+[8.110549] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/ament_index/resource_index/packages/olympic_interfaces\n'}
+[8.111025] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/olympic_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.112233] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/olympic_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.113401] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/olympic_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.113952] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/olympic_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.115171] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/olympic_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.116593] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/olympic_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.116811] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/olympic_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.116906] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/olympic_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.116995] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/olympic_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.117081] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/olympic_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.117167] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/olympic_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.117251] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.117334] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.117406] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.117474] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.117540] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.117607] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.117672] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.117901] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/olympic_interfacesConfig.cmake\n'}
+[8.118229] (olympic_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/olympic_interfacesConfig-version.cmake\n'}
+[8.118472] (olympic_interfaces) StdoutLine: {'line': b'-- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/package.xml\n'}
+[8.121625] (olympic_interfaces) CommandEnded: {'returncode': 0}
+[8.155690] (-) TimerEvent: {}
+[8.260052] (-) TimerEvent: {}
+[8.343236] (olympic_interfaces) JobEnded: {'identifier': 'olympic_interfaces', 'rc': 0}
+[8.345905] (-) EventReactorShutdown: {}

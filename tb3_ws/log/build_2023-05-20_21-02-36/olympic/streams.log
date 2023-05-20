@@ -1,0 +1,50 @@
+[0.041s] Invoking command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j3 -l3
+[0.099s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.135s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.380s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.422s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.426s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.594s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.664s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.666s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.854s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.902s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[1.062s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.126s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.287s] -- Found olympic_interfaces: 0.0.0 (/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake)
+[1.294s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.386s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.389s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.390s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/include>
+[1.390s] -- Configured cppcheck exclude dirs and/or files: 
+[1.392s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.392s] -- Configured cpplint exclude dirs and/or files: 
+[1.394s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.395s] -- Added test 'lint_cmake' to check CMake code style
+[1.395s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.396s] -- Added test 'uncrustify' to check C / C++ code style
+[1.396s] -- Configured uncrustify additional arguments: 
+[1.397s] -- Added test 'xmllint' to check XML markup files
+[1.401s] -- Configuring done
+[1.431s] -- Generating done
+[1.435s] -- Build files have been written to: /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic
+[1.476s] [35m[1mScanning dependencies of target rings_action_client[0m
+[1.478s] [35m[1mScanning dependencies of target rings_action_server[0m
+[1.513s] [ 33%] Built target rings
+[1.590s] [ 50%] [32mBuilding CXX object CMakeFiles/rings_action_server.dir/src/rings_action_server.cpp.o[0m
+[1.591s] [ 66%] [32mBuilding CXX object CMakeFiles/rings_action_client.dir/src/rings_action_client.cpp.o[0m
+[1.643s] [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings_action_client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kolympic_interfaces/action/rings.hpp: No such file or directory
+[1.644s]     3 | #include [01;31m[K"olympic_interfaces/action/rings.hpp"[m[K
+[1.644s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.645s] compilation terminated.
+[1.649s] make[2]: *** [CMakeFiles/rings_action_client.dir/build.make:63: CMakeFiles/rings_action_client.dir/src/rings_action_client.cpp.o] Error 1
+[1.649s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/rings_action_client.dir/all] Error 2
+[1.649s] make[1]: *** Waiting for unfinished jobs....
+[1.659s] [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings_action_server.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kolympic_interfaces/action/rings.hpp: No such file or directory
+[1.659s]     4 | #include [01;31m[K"olympic_interfaces/action/rings.hpp"[m[K
+[1.659s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.659s] compilation terminated.
+[1.662s] make[2]: *** [CMakeFiles/rings_action_server.dir/build.make:63: CMakeFiles/rings_action_server.dir/src/rings_action_server.cpp.o] Error 1
+[1.663s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/rings_action_server.dir/all] Error 2
+[1.663s] make: *** [Makefile:141: all] Error 2
+[1.670s] Invoked command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '2': CMAKE_PREFIX_PATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j3 -l3

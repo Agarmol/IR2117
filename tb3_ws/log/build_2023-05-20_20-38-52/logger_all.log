@@ -1,0 +1,174 @@
+[0.367s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'olympic']
+[0.367s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f00f6410a00>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['olympic'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=3, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f00f6410a00>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f00f6410f70>)
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.400s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/adri/Documentos/GitHub/IR2117/tb3_ws'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/obstacles' with type 'ros.ament_cmake' and name 'obstacles'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extension 'ros'
+[0.437s] DEBUG:colcon.colcon_core.package_identification:Package 'src/olympic' with type 'ros.ament_cmake' and name 'olympic'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extension 'ros'
+[0.439s] DEBUG:colcon.colcon_core.package_identification:Package 'src/olympic_interfaces' with type 'ros.ament_cmake' and name 'olympic_interfaces'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extension 'ros'
+[0.440s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_trajectory' with type 'ros.ament_cmake' and name 'robot_trajectory'
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.465s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'obstacles' in 'src/obstacles'
+[0.465s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'olympic_interfaces' in 'src/olympic_interfaces'
+[0.465s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_trajectory' in 'src/robot_trajectory'
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.470s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/adri/Documentos/GitHub/IR2117/tb3_ws/install
+[0.471s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'cmake_args' from command line to 'None'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'cmake_target' from command line to 'None'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'cmake_clean_first' from command line to 'False'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'cmake_force_configure' from command line to 'False'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'ament_cmake_args' from command line to 'None'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.557s] DEBUG:colcon.colcon_core.verb:Building package 'olympic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic', 'merge_install': False, 'path': '/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic', 'symlink_install': False, 'test_result_base': None}
+[0.558s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.565s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.565s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic' with build type 'ament_cmake'
+[0.566s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic'
+[0.575s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.575s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.575s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j3 -l3
+[0.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j3 -l3
+[0.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic
+[0.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(olympic)
+[0.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic' for CMake module files
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic' for CMake config files
+[0.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('olympic', 'cmake_prefix_path')
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/hook/cmake_prefix_path.ps1'
+[0.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/hook/cmake_prefix_path.dsv'
+[0.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/hook/cmake_prefix_path.sh'
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib'
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/bin'
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/pkgconfig/olympic.pc'
+[0.874s] Level 1:colcon.colcon_core.environment:checking '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/python3.8/site-packages'
+[0.874s] Level 1:colcon.colcon_core.environment:checking '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/bin'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.ps1'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.dsv'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.sh'
+[0.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.bash'
+[0.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.zsh'
+[0.884s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/colcon-core/packages/olympic)
+[0.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(olympic)
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic' for CMake module files
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic' for CMake config files
+[0.944s] Level 1:colcon.colcon_core.shell:create_environment_hook('olympic', 'cmake_prefix_path')
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/hook/cmake_prefix_path.ps1'
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/hook/cmake_prefix_path.dsv'
+[0.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/hook/cmake_prefix_path.sh'
+[0.951s] Level 1:colcon.colcon_core.environment:checking '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib'
+[0.951s] Level 1:colcon.colcon_core.environment:checking '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/bin'
+[0.951s] Level 1:colcon.colcon_core.environment:checking '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/pkgconfig/olympic.pc'
+[0.951s] Level 1:colcon.colcon_core.environment:checking '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/python3.8/site-packages'
+[0.951s] Level 1:colcon.colcon_core.environment:checking '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/bin'
+[0.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.ps1'
+[0.955s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.dsv'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.sh'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.bash'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/package.zsh'
+[0.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/colcon-core/packages/olympic)
+[0.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.964s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.965s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.965s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.973s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.974s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.974s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.027s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.029s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/local_setup.ps1'
+[1.031s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/_local_setup_util_ps1.py'
+[1.036s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/setup.ps1'
+[1.040s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/local_setup.sh'
+[1.042s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/_local_setup_util_sh.py'
+[1.043s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/setup.sh'
+[1.047s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/local_setup.bash'
+[1.050s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/setup.bash'
+[1.053s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/local_setup.zsh'
+[1.055s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/setup.zsh'

@@ -1,0 +1,34 @@
+[0.092s] Invoking command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic_interfaces -DCMAKE_INSTALL_PREFIX=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces
+[0.193s] -- The C compiler identification is GNU 9.4.0
+[0.288s] -- The CXX compiler identification is GNU 9.4.0
+[0.295s] -- Check for working C compiler: /usr/bin/cc
+[0.435s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.437s] -- Detecting C compiler ABI info
+[0.593s] -- Detecting C compiler ABI info - done
+[0.603s] -- Detecting C compile features
+[0.603s] -- Detecting C compile features - done
+[0.607s] -- Check for working CXX compiler: /usr/bin/c++
+[0.754s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.756s] -- Detecting CXX compiler ABI info
+[0.902s] -- Detecting CXX compiler ABI info - done
+[0.922s] -- Detecting CXX compile features
+[0.923s] -- Detecting CXX compile features - done
+[0.927s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.960s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.960s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.223s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.329s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.338s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.338s] -- Configured cppcheck include dirs: 
+[1.338s] -- Configured cppcheck exclude dirs and/or files: 
+[1.345s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.345s] -- Configured cpplint exclude dirs and/or files: 
+[1.347s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.350s] -- Added test 'lint_cmake' to check CMake code style
+[1.352s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.359s] -- Added test 'uncrustify' to check C / C++ code style
+[1.360s] -- Configured uncrustify additional arguments: 
+[1.362s] -- Added test 'xmllint' to check XML markup files
+[1.367s] -- Configuring done
+[1.381s] -- Generating done
+[1.382s] -- Build files have been written to: /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from olympic_interfaces/action/Rings.action
+// generated code does not contain a copyright notice
+
+
+module olympic_interfaces {
+  module action {
+    struct Rings_Goal {
+      float radius;
+    };
+    struct Rings_Result {
+      int32 rings_completed;
+    };
+    struct Rings_Feedback {
+      int32 drawing_ring;
+
+      float ring_angle;
+    };
+  };
+};

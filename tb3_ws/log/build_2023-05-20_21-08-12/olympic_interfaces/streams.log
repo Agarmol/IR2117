@@ -1,0 +1,20 @@
+[0.035s] Invoking command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces -- -j3 -l3
+[0.129s] Invoked command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces -- -j3 -l3
+[0.210s] Invoking command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces
+[0.221s] -- Install configuration: ""
+[0.223s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/ament_index/resource_index/package_run_dependencies/olympic_interfaces
+[0.223s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/ament_index/resource_index/parent_prefix_path/olympic_interfaces
+[0.223s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/environment/ament_prefix_path.sh
+[0.223s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/environment/ament_prefix_path.dsv
+[0.223s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/environment/path.sh
+[0.223s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/environment/path.dsv
+[0.224s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/local_setup.bash
+[0.224s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/local_setup.sh
+[0.224s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/local_setup.zsh
+[0.224s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/local_setup.dsv
+[0.224s] -- Installing: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/package.dsv
+[0.224s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/ament_index/resource_index/packages/olympic_interfaces
+[0.224s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/olympic_interfacesConfig.cmake
+[0.225s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake/olympic_interfacesConfig-version.cmake
+[0.225s] -- Up-to-date: /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/package.xml
+[0.229s] Invoked command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic_interfaces

@@ -1,4 +1,7 @@
 /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/rings
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/action_server
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/lib/olympic/action_client
+/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/launch/olympic_rings.launch.py
 /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/ament_index/resource_index/package_run_dependencies/olympic
 /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/ament_index/resource_index/parent_prefix_path/olympic
 /home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic/share/olympic/environment/ament_prefix_path.sh

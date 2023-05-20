@@ -1,0 +1,19 @@
+[0.034s] Invoking command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j3 -l3
+[0.172s] [ 16%] [32mBuilding CXX object CMakeFiles/rings_action_server.dir/src/rings_action_server.cpp.o[0m
+[0.180s] [ 33%] [32mBuilding CXX object CMakeFiles/rings_action_client.dir/src/rings_action_client.cpp.o[0m
+[0.186s] [ 66%] Built target rings
+[0.228s] [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings_action_client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kolympic_interfaces/action/rings.hpp: No such file or directory
+[0.228s]     3 | #include [01;31m[K"olympic_interfaces/action/rings.hpp"[m[K
+[0.228s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.228s] compilation terminated.
+[0.231s] make[2]: *** [CMakeFiles/rings_action_client.dir/build.make:63: CMakeFiles/rings_action_client.dir/src/rings_action_client.cpp.o] Error 1
+[0.232s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/rings_action_client.dir/all] Error 2
+[0.232s] make[1]: *** Waiting for unfinished jobs....
+[0.237s] [01m[K/home/adri/Documentos/GitHub/IR2117/tb3_ws/src/olympic/src/rings_action_server.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kolympic_interfaces/action/rings.hpp: No such file or directory
+[0.237s]     4 | #include [01;31m[K"olympic_interfaces/action/rings.hpp"[m[K
+[0.237s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.237s] compilation terminated.
+[0.241s] make[2]: *** [CMakeFiles/rings_action_server.dir/build.make:63: CMakeFiles/rings_action_server.dir/src/rings_action_server.cpp.o] Error 1
+[0.243s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/rings_action_server.dir/all] Error 2
+[0.244s] make: *** [Makefile:141: all] Error 2
+[0.248s] Invoked command in '/home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '2': CMAKE_PREFIX_PATH=/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic_interfaces:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/adri/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/opt/ros/foxy /usr/bin/cmake --build /home/adri/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j3 -l3
