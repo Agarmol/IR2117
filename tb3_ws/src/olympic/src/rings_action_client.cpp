@@ -4,7 +4,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 
-using Rings = 
+using Rings =
   olympic_interfaces::action::Rings;
 
 using GoalHandleRings =
@@ -31,7 +31,7 @@ int main(int argc, char ** argv)
     g_node, "rings");
 
   if (!action_client->wait_for_action_server(20s)) {
-    RCLCPP_ERROR(g_node->get_logger(), 
+    RCLCPP_ERROR(g_node->get_logger(),
       "Action server not available after waiting");
     return 1;
   }
@@ -40,43 +40,43 @@ auto goal_msg = Rings::Goal();
   goal_msg.order = 10;
 
 
-  RCLCPP_INFO(g_node->get_logger(), 
+  RCLCPP_INFO(g_node->get_logger(),
     "Sending goal");
-  auto send_goal_options = 
+  auto send_goal_options =
     rclcpp_action::Client<Rings>::SendGoalOptions();
   send_goal_options.feedback_callback = feedback_callback;
-  auto goal_handle_future = 
+  auto goal_handle_future =
     action_client->async_send_goal(goal_msg, send_goal_options);
 
   auto return_code = rclcpp::spin_until_future_complete(g_node,
     goal_handle_future);
-    
+   
 if (return_code != rclcpp::FutureReturnCode::SUCCESS)
   {
-    RCLCPP_ERROR(g_node->get_logger(), 
+    RCLCPP_ERROR(g_node->get_logger(),
       "send goal call failed :(");
     return 1;
   }
 
-  GoalHandleRings::SharedPtr goal_handle = 
+  GoalHandleRings::SharedPtr goal_handle =
     goal_handle_future.get();
   if (!goal_handle) {
-    RCLCPP_ERROR(g_node->get_logger(), 
+    RCLCPP_ERROR(g_node->get_logger(),
       "Goal was rejected by server");
     return 1;
   }
 
-auto result_future = 
+auto result_future =
     action_client->async_get_result(goal_handle);
 
   RCLCPP_INFO(g_node->get_logger(), "Waiting for result");
 
-  return_code = rclcpp::spin_until_future_complete(g_node, 
+  return_code = rclcpp::spin_until_future_complete(g_node,
     result_future);
 
   if (return_code != rclcpp::FutureReturnCode::SUCCESS)
   {
-    RCLCPP_ERROR(g_node->get_logger(), 
+    RCLCPP_ERROR(g_node->get_logger(),
       "get result call failed :(");
     return 1;
   }
